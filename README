@@ -1,0 +1,1 @@
+This is a Web app that runs a ML model in the backend, and predicts a wine quality grade once it's given values for chemical characteristics of wine.
