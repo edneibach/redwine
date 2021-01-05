@@ -1,1 +1,11 @@
-This is a Web app that runs a ML model in the backend, and predicts a wine quality grade once it's given values for chemical characteristics of wine.
+This is a web app made using streamlit.
+The app runs a pre-trained classification model (3 stacked models from Pycaret) in the background, and allows you to change settings and make predictions from these settings.
+
+The settings correlate to physical and chemical properties of the wine itself, and the output is a prediction of the wine quality itself.
+
+The model was trained based in the Red Wine Quality dataset: https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009 - Final accuracy of the stacked model remains at around 67%. 
+The relatively low accuracy is due to the fact that people's tastes in wine vary significantly, and the original data did not account for that. Still, 67% is quite accurate for something so subjective such as taste.
+
+Basically, a Sommelier AI!
+
+For this you will need pycaret, pandas and streamlit.
