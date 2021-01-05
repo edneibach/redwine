@@ -9,3 +9,7 @@ The relatively low accuracy is due to the fact that people's tastes in wine vary
 Basically, a Sommelier AI!
 
 For this you will need pycaret, pandas and streamlit.
+
+Once you install all these 3 modules, you can run this from the commandline in the app's folder:
+streamlit run wine.py
+This will then run the server and open the app directly in your browser.
